@@ -1,0 +1,26 @@
+{% extends '@SyliusShop/layout.html.twig' %}
+
+{% block content %}
+
+<div class="container-fluid">
+    <div class="row text-center mt-5 mb-5" >
+        <div class="col-12">
+            <h1>NutriBoost  <br/>Votre Guide de Nutrition et Fitness</h1>
+            <h3>Ce n'est pas un régime. C'est un mode de vie.</h3>
+        </div>
+    </div>
+    <div class="row mt-5 text-center">
+            <div class="col-4">
+                <a href="#" class="btn btn-success">Cardio Guide</a>
+            </div>
+            <div class="col-4">
+                <a href="#" class="btn btn-success">Programme musculation</a>
+            </div>
+            <div class="col-4">
+                <a href="{{ path('app_besoin_calorique')}}" class="btn btn-success">Connaître ses besoin caloriques</a>
+            </div>
+    </div>
+</div>
+
+
+{% endblock %}
